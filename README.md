@@ -4,7 +4,7 @@
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 - 😄 Pronouns: she/they
-- ⚡ Fun fact: I'm transfeminine non-binary
+- ⚡ Fun fact: e is the best number
 
 <!---
 LaconicLuna/LaconicLuna is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
