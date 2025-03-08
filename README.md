@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @LaconicLuna
 - 👀 I’m interested in mathematics
-- 🌱 I’m currently learning C/C++
+- 🌱 I’m currently learning C/C++ graphics
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 - 😄 Pronouns: she/they
