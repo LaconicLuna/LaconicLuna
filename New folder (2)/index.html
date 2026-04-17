@@ -262,9 +262,6 @@
         document.getElementById("status-time").title = statusStart.toLocaleString();
         document.getElementById("status-time").textContent = text;
     }
-    console.log("Now (local):", new Date());
-    console.log("Now (ISO):", new Date().toISOString());
-    console.log("Status:", statusStart);
     updateTime();
     setInterval(updateTime, 1000);
     setInterval(restartStatus, 30000);
