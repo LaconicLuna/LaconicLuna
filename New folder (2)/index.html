@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaconicLuna</title>
+    <link rel="icon" type="image/png" href="images/user.png">
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <style>
+        body{
+            background-color: #040404;
+            color: #cecece;
+            font-family: monospace;
+            font-size: 14px;
+            margin: 0;
+            padding: 0;
+        }
+        .pfp {
+            width: 256px;
+            height: 256px;
+            border-radius: 50%;
+            object-fit: cover;     
+            box-shadow: 0 0 20px #3E246D;
+            margin-top: 50px;
+        }
+        .pfp:hover {
+            transform: scale(1.03);
+            transition: 0.3s;
+        }
+        .about-container {
+            text-align: center;
+            max-width: 650px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .pronouns{
+            margin-top: 0;
+            margin-bottom: 20px;
+            color: #aaa;
+        }
+
+        .status {
+            color: #cbb6ff;
+            font-style: italic;
+            opacity: 0.8;
+        }
+        h1{
+            color: #3E246D;
+            margin-bottom: 0;
+        }
+        
+        .intro{
+            color: #cbb6ff;
+        }
+
+        
+
+
+        h3{
+            color: #cbb6ff;
+            margin-top: 40px;
+        }
+        .game-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            max-width: 800px;
+            margin: 20px auto 40px auto;
+        }
+
+        .game {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .game:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+        }
+
+        .game img {
+            width: 100%;
+            border-radius: 12px;
+        }
+
+        .game p {
+            margin-top: 8px;
+            font-weight: 600;
+            color: #cecece;
+        }
+
+        .footer {
+            margin-top: 40px;
+            color: #cbb6ff;
+        }
+
+        .footer a {
+            color: #cbb6ff;
+            text-decoration: none;
+            display: inline-block;
+            margin: 4px 0;
+            transition: opacity 0.2s;
+        }
+
+        .footer a:hover {
+            opacity: 0.7;
+            text-decoration: underline;
+        }
+
+        .updated {
+            font-size: 12px;
+            color: #777;
+            margin-top: 20px;
+        }
+        
+        .status {
+            display: inline-block;
+            font-family: monospace;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 2px solid #fff; /* cursor */
+            animation: typing 5s steps(50, end), blink 0.8s step-end infinite;
+        }
+
+        @keyframes typing {
+            from { max-width: 0; }
+            to   { max-width: 100%; } 
+        }
+
+        @keyframes blink {
+            from, to { border-color: transparent; }
+            50%      { border-color: #fff; } /* match your theme color */
+        }
+        .time {
+            color: #777;
+            font-size: 12px;
+            margin-left: 6px;
+        }
+        
+    </style>
+</head>
+
+  <body>
+<div class="about-container">
+    
+    <img class="pfp" src="images/user.png" width="256" height="256" alt="Luna">
+
+    <h1>LaconicLuna</h1>
+    
+    <p class="pronouns">(she/they)</p>
+
+    <p class="status">Currently: Stressed out of my mind :( 
+        <span class="time" id="status-time"></span></p>
+
+    <p class="intro">Howdy! I'm Luna, not really your average mathematician. Much more likely to be found with Lego than books. Beware of philosophical rants and unsolicited gaming advice (:</p>
+    
+    <h3>About Me</h3>
+    <p>I'm a "bit" of an artist, I mostly write poetry and do digital art.<br> I'm also a musician, I love music. I enjoy really any genre but nowdays I mostly compose EDM type music.</p>
+
+    <p>I've been coding a while. I'm mostly experienced with Java, Python, and C/C++. I'm also a cryptography nerd :p</p>
+
+    <p>I really love philosophy and math. I'm just real curious and try to understand everything. My favorite Book:道德经</p>
+
+    <p>Fluent in English and Chinese. 你好,会中文的人！ </p>
+    
+    <h3>Favorite Games</h3>
+    <div class="game-grid">
+        <div class="game">
+            <img src="images/darksouls.jpg" alt="Dark Souls Remastered">
+            <p>Dark Souls Remastered</p>
+        </div>
+
+        <div class="game">
+            <img src="images/rdr2.jpg" alt="Red Dead Redemption 2">
+            <p>Red Dead Redemption 2</p>
+        </div>
+
+        <div class="game">
+            <img src="images/legotcs.jpg" alt="Lego Star Wars">
+            <p>Lego Star Wars</p>
+        </div>
+
+
+        <div class="game">
+            <img src="images/eldenring.jpg" alt="Elden Ring">
+            <p>Elden Ring</p>
+        </div>
+
+        <div class="game">
+            <img src="images/wobblylife.webp" alt="Wobbly Life">
+            <p>Wobbly Life</p>
+        </div>
+
+        <div class="game">
+            <img src="images/cyberpunk.webp" alt="Cyberpunk 2077">
+            <p>Cyberpunk 2077</p>
+        </div>
+
+        
+    </div>
+
+    
+    <div class="footer">
+        <h3>My Links</h3>
+        <a href="https://twitter.com/laconicluna">Twitter</a>
+        <br>
+        <a href="https://steamcommunity.com/id/LaconicLuna/">Steam</a>
+        <br>
+        <a href="https://www.youtube.com/@LaconicLuna">Youtube</a>
+        <br>
+        <a href="https://github.com/LaconicLuna">GitHub</a>
+        <br>
+        <a href="https://discord.com/users/560947118051950622">Discord</a>
+        <br>
+    </div>
+    <p class="updated">Updated 4/17/2026 12:01 MDT</p>
+</div>
+
+
+</body>
+<script>
+    function restartStatus() {
+        const el = document.querySelector('.status');
+        
+        el.style.opacity = '0';
+        
+        setTimeout(() => {
+            el.style.animation = 'none';
+            void el.offsetWidth;
+            el.style.animation = '';
+            el.style.opacity = '1';
+        }, 300);
+    }
+    function createLocalDate(str) {
+        // format: "YYYY-MM-DD HH:MM"
+        const [datePart, timePart] = str.split(" ");
+        const [year, month, day] = datePart.split("-").map(Number);
+        const [hour, minute] = timePart.split(":").map(Number);
+
+        return new Date(year, month - 1, day, hour, minute);
+    }
+    const statusStart = createLocalDate("2026-04-17 02:28");
+
+    function updateTime() {
+        const now = new Date();
+        const diff = Math.floor((now - statusStart) / 1000); // seconds
+
+        let text = "";
+        if (diff < 0) {
+            text = "(in the future??)";
+        } else if (diff < 10) {
+            text = "(just now)";
+        } else if (diff < 60) {
+            text = `(${diff}s ago)`;
+        } else if (diff < 3600) {
+            text = `(${Math.floor(diff / 60)}m ago)`;
+        } else if (diff < 86400) {
+            text = `(${Math.floor(diff / 3600)}h ago)`;
+        } else {
+            text = `(${Math.floor(diff / 86400)}d ago)`;
+        }
+        document.getElementById("status-time").title = statusStart.toLocaleString();
+        document.getElementById("status-time").textContent = text;
+    }
+    console.log("Now (local):", new Date());
+    console.log("Now (ISO):", new Date().toISOString());
+    console.log("Status:", statusStart);
+    updateTime();
+    setInterval(updateTime, 1000);
+    setInterval(restartStatus, 30000);
+</script>
+
+</html>
