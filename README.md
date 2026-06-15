@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @LaconicLuna
 - 👀 I’m a Mathematician and curious person
-- 🌱 I’m currently learning C/C++ graphics and 
+- 🌱 I’m currently learning too much to list
 - 💞️ I’m looking to collaborate on ... Nothing at the moment
-- 📫 How to reach me: check my website if you REALLY need to contact me lol 
+- 📫 How to reach me: IDK
 - 😄 Pronouns: she/they
 - 🦆 Fun fact: I really love ducks and wildlife but especially ducks
 - ⚡ Heres some golfed C code for 1000 digits of e (Poor Compiler gotta deal with this crap)  
